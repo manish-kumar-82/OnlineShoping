@@ -1,0 +1,780 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  Navigation menu bar */
+.left {
+  position: absolute;
+  left: 160px;
+  top: 15px;
+}
+
+.left h3 {
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left p {
+  text-align: center;
+  color: rgb(172, 161, 161);
+  cursor: pointer;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 160px;
+  top: 20px;
+}
+
+li {
+  width: 80px;
+  margin: 5px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover,
+.active {
+  color: rgb(172, 161, 161);
+}
+
+/* 5 Boxes Position*/
+
+.box {
+  position: relative;
+  top: 10px;
+  display: flex;
+  margin: 0px 4px;
+}
+
+.box1 {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("img/img6.jpg");
+  background-size: cover;
+  box-shadow: 5px 5px 4px black;
+  width: 50%;
+  height: 485px;
+}
+
+.box1 h1 {
+  position: relative;
+  top: 50%;
+  color: white;
+  text-align: center;
+}
+
+.box1 p {
+  position: relative;
+  top: 52%;
+  color: white;
+  text-align: center;
+}
+
+.box1 .btn1 {
+  position: relative;
+  top: 55%;
+  left: 35%;
+  color: white;
+  background: none;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.box1 .btn1:hover {
+  background-color: rgb(133, 163, 113);
+  cursor: pointer;
+}
+
+.box2 {
+  width: 50%;
+}
+
+.items1 {
+  display: flex;
+}
+
+.item1 {
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("img/img9.jpg");
+  background-size: cover;
+  position: relative;
+  left: 72px;
+  box-shadow: 5px 5px 4px black;
+  width: 40%;
+  height: 230px;
+}
+
+.item1 h1 {
+  position: relative;
+  top: 50%;
+  color: white;
+  text-align: center;
+}
+
+.item1 p {
+  position: relative;
+  top: 52%;
+  color: white;
+  text-align: center;
+}
+
+.item2 {
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("img/img14.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 98px;
+  box-shadow: 5px 5px 4px black;
+  width: 40%;
+  height: 230px;
+}
+
+.item2 h1 {
+  position: relative;
+  top: 50%;
+  color: white;
+  text-align: center;
+}
+
+.item2 p {
+  position: relative;
+  top: 52%;
+  color: white;
+  text-align: center;
+}
+
+.items2 {
+  display: flex;
+  margin: 25px 0;
+}
+
+.item3 {
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("img/img1.jpg");
+  background-size: cover;
+  position: relative;
+  left: 72px;
+  box-shadow: 5px 5px 4px black;
+  width: 40%;
+  height: 230px;
+}
+
+.item3 h1 {
+  position: relative;
+  top: 50%;
+  color: white;
+  text-align: center;
+}
+
+.item3 p {
+  position: relative;
+  top: 52%;
+  color: white;
+  text-align: center;
+}
+
+.item4 {
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("img/accessories.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  left: 98px;
+  box-shadow: 5px 5px 4px black;
+  width: 40%;
+  height: 230px;
+}
+
+.item4 h1 {
+  position: relative;
+  top: 50%;
+  color: white;
+  text-align: center;
+}
+
+.item4 p {
+  position: relative;
+  top: 52%;
+  color: white;
+  text-align: center;
+}
+
+/*  Women's Latest  */
+.container .titlebaba h1 {
+  margin: 0 150px;
+}
+
+.container .titlebaba p {
+  margin: 10px 150px;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  top: 40px;
+  width: 100%;
+}
+
+.id1 {
+  border: 2px solid black;
+  width: 335px;
+  height: 335px;
+  background: url("img/img2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 150px;
+}
+
+.id1 h3 {
+  position: relative;
+  top: 340px;
+}
+
+.id1 p {
+  position: relative;
+  top: 340px;
+  color: rgb(172, 161, 161);
+  font-style: italic;
+}
+
+.id2 {
+  border: 2px solid black;
+  width: 335px;
+  height: 335px;
+  background: url("img/img3.jpg");
+  background-size: cover;
+  position: relative;
+  left: 230px;
+}
+
+.id2 h3 {
+  position: relative;
+  top: 340px;
+}
+
+.id2 p {
+  position: relative;
+  top: 340px;
+  color: rgb(172, 161, 161);
+  font-style: italic;
+}
+
+.id3 {
+  border: 2px solid black;
+  width: 335px;
+  height: 335px;
+  background: url("img/img5.jpg");
+  background-size: cover;
+  position: relative;
+  left: 309px;
+}
+
+.id3 h3 {
+  position: relative;
+  top: 340px;
+}
+
+.id3 p {
+  position: relative;
+  top: 340px;
+  color: rgb(172, 161, 161);
+  font-style: italic;
+}
+
+/*  Men's latest */
+
+.id11 {
+  border: 2px solid black;
+  width: 335px;
+  height: 335px;
+  background: url("img/img8.jpg");
+  background-size: cover;
+  position: relative;
+  left: 150px;
+}
+
+.id11 h3 {
+  position: relative;
+  top: 340px;
+}
+
+.id11 p {
+  position: relative;
+  top: 340px;
+  color: rgb(172, 161, 161);
+  font-style: italic;
+}
+
+.id12 {
+  border: 2px solid black;
+  width: 335px;
+  height: 335px;
+  background: url("img/ig3.jpg");
+  background-size: cover;
+  position: relative;
+  left: 230px;
+}
+
+.id12 h3 {
+  position: relative;
+  top: 340px;
+}
+
+.id12 p {
+  position: relative;
+  top: 340px;
+  color: rgb(172, 161, 161);
+  font-style: italic;
+}
+
+.id13 {
+  border: 2px solid black;
+  width: 335px;
+  height: 335px;
+  background: url("img/ig2.jpg");
+  background-size: cover;
+  position: relative;
+  left: 309px;
+}
+
+.id13 h3 {
+  position: relative;
+  top: 340px;
+}
+
+.id13 p {
+  position: relative;
+  top: 340px;
+  color: rgb(172, 161, 161);
+  font-style: italic;
+}
+
+/*  Kid's Latest */
+
+.id21 {
+  border: 2px solid black;
+  width: 335px;
+  height: 335px;
+  background: url("img/ig4.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 150px;
+}
+
+.id21 h3 {
+  position: relative;
+  top: 340px;
+}
+
+.id21 p {
+  position: relative;
+  top: 340px;
+  color: rgb(172, 161, 161);
+  font-style: italic;
+}
+
+.id22 {
+  border: 2px solid black;
+  width: 335px;
+  height: 335px;
+  background: url("img/ig.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  left: 230px;
+}
+
+.id22 h3 {
+  position: relative;
+  top: 340px;
+}
+
+.id22 p {
+  position: relative;
+  top: 340px;
+  color: rgb(172, 161, 161);
+  font-style: italic;
+}
+
+.id23 {
+  border: 2px solid black;
+  width: 335px;
+  height: 335px;
+  background: url("img/img4.jpg");
+  background-size: cover;
+  position: relative;
+  left: 309px;
+}
+
+.id23 h3 {
+  position: relative;
+  top: 340px;
+}
+
+.id23 p {
+  position: relative;
+  top: 340px;
+  color: rgb(172, 161, 161);
+  font-style: italic;
+}
+
+/* Explore our products */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  height: 63vh;
+}
+
+.leftbar {
+  position: absolute;
+  left: 150px;
+  width: 38%;
+  height: 78vh;
+}
+
+.leftbar p {
+  position: relative;
+  top: 15px;
+  color: rgb(67, 66, 66);
+}
+
+.leftbar h3 {
+  position: relative;
+  top: 30px;
+  font-style: italic;
+}
+
+.leftbar .p1 {
+  position: relative;
+  top: 60px;
+  color: rgb(67, 66, 66);
+}
+
+.leftbar .p2 {
+  position: relative;
+  top: 100px;
+  color: rgb(67, 66, 66);
+}
+
+span {
+  color: rgb(8, 80, 246);
+}
+
+.leftbar .btn2 {
+  font-weight: bold;
+  background: none;
+  position: relative;
+  top: 140px;
+  padding: 9px 18px;
+  color: black;
+}
+
+.leftbar .btn2:hover {
+  background-color: rgb(93, 139, 182);
+  cursor: pointer;
+}
+
+.rightbar {
+  position: absolute;
+  right: 150px;
+  width: 38%;
+  height: 78vh;
+}
+
+.items1 {
+  display: flex;
+}
+
+.divbar1 {
+  background-color: #e4e4e4;
+  position: relative;
+  left: 72px;
+  width: 40%;
+  height: 230px;
+}
+
+.divbar1 h1 {
+  position: relative;
+  top: 35%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.divbar1 p {
+  position: relative;
+  top: 38%;
+  color: rgb(67, 66, 66);
+  text-align: center;
+}
+
+.divbar2 {
+  background: url("img/acces1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: 98px;
+  width: 40%;
+  height: 230px;
+}
+
+.items2 {
+  display: flex;
+  margin: 25px 0;
+}
+
+.divbar3 {
+  background: url("img/acces2.jpg");
+  background-size: cover;
+  position: relative;
+  left: 72px;
+  width: 40%;
+  height: 230px;
+}
+
+.divbar4 {
+  position: relative;
+  left: 98px;
+  background-color: #e4e4e4;
+  width: 40%;
+  height: 230px;
+}
+
+.divbar4 h1 {
+  position: relative;
+  top: 35%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.divbar4 p {
+  position: relative;
+  top: 38%;
+  color: rgb(67, 66, 66);
+  text-align: center;
+}
+
+/*  Social Media */
+
+.headbar {
+  margin: 0 142px;
+  height: 40vh;
+}
+
+.headbar p {
+  font-style: italic;
+  color: rgb(172, 161, 161);
+}
+
+.media {
+  display: flex;
+}
+
+.media .photo1 {
+  background: url("img/b2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 45px;
+  border: 1px solid black;
+  width: 193px;
+  height: 25vh;
+}
+
+.media .photo2 {
+  background: url("img/b7.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 45px;
+  border: 1px solid black;
+  width: 193px;
+  height: 25vh;
+}
+
+.media .photo3 {
+  background: url("img/b5.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 45px;
+  border: 1px solid black;
+  width: 193px;
+  height: 25vh;
+}
+
+.media .photo4 {
+  background: url("img/b8.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 45px;
+  border: 1px solid black;
+  width: 193px;
+  height: 25vh;
+}
+
+.media .photo5 {
+  background: url("img/b3.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 45px;
+  border: 1px solid black;
+  width: 193px;
+  height: 25vh;
+}
+
+.media .photo6 {
+  background: url("img/b4.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 45px;
+  border: 1px solid black;
+  width: 193px;
+  height: 25vh;
+}
+
+/*  Others / Subscribing our website */
+
+.others {
+  display: flex;
+  margin: 0 142px;
+  height: 50vh;
+}
+
+.leftother {
+  position: relative;
+  top: 9px;
+  width: 540px;
+}
+
+.leftother p {
+  font-style: italic;
+  color: rgb(89, 89, 89);
+  position: relative;
+  top: 7px;
+}
+
+input {
+  position: relative;
+  top: 25px;
+  padding: 8px 25px;
+  font-style: italic;
+  border: 2px solid;
+  margin: 0 10px;
+  left: -10px;
+}
+
+.rightother {
+  display: flex;
+  margin: 0 39px;
+}
+
+.locat {
+  width: 343px;
+}
+
+.rightother p {
+  color: rgb(89, 89, 89);
+}
+
+/*  Blackbord down page*/
+
+.blackbord {
+  position: relative;
+  top: 50px;
+  display: flex;
+  color: white;
+  height: 30vh;
+}
+
+.one {
+  position: relative;
+  top: 30px;
+  left: 150px;
+}
+.two {
+  position: relative;
+  left: 200px;
+  top: 30px;
+}
+
+.three {
+  position: relative;
+  left: 300px;
+  top: 30px;
+}
+
+.four {
+  position: relative;
+  left: 400px;
+  top: 30px;
+}
+
+.blackbord h5 {
+  color: rgb(186, 186, 186);
+}
+
+.horizontalline {
+  background-color: rgb(25, 25, 25);
+  width: 100%;
+  height: 45vh;
+}
+.text-footer {
+  position: relative;
+  top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.design {
+  position: relative;
+  top: 20px;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 1130px) {
+  .right {
+    display: inline-block;
+    position: absolute;
+    left: 515px;
+    top: 20px;
+  }
+  .box{
+    left: 140px;
+  }
+  .box1{
+    width: 69%;
+    height: 358px;
+    
+  }
+  .item1 {
+    width: 82%;
+    height: 165px;
+  }
+  .item2 {
+    width: 85%;
+    height: 167px;
+  }
+  .item3{
+    width: 82%;
+    height: 165px;
+  }
+  .item4{
+    width: 85%;
+    height: 167px;
+  }
+}
